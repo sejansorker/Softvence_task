@@ -14,7 +14,7 @@ const Navbar = () => {
                                 <img src={Logo} alt="" />
                             </div>
                             <div className="">
-                                <ul className='flex items-center gap-x-6 pl-13 text-white'>
+                                <ul className='flex items-center gap-x-6 pl-13 text-white font-main text-[16px] font-normal'>
                                     <li className='py-1 px-4 border-2 border-white'>Projects</li>
                                     <li>Sercive</li>
                                     <li>Contact</li>
@@ -25,9 +25,9 @@ const Navbar = () => {
                     </div>
                     <div className="w-1/3">
                     <div className="flex items-center">
-                        <p>+21 934 748 392</p>
-                        <button><IoIosSearch /></button>
-                        <button className='flex items-center'>Get a Quote <FaArrowRightLong /></button>
+                        <p className='text-[16px] font-normal font-main text-white pr-8'>+21 934 748 392</p>
+                        <button className='p-3.5 rounded-full mr-2  bg-[rgba(255,255,255,0.37)]'><IoIosSearch className='text-[20px] text-white ' /></button>
+                        <button className='flex items-center font-main text-[16px] font-medium bg-[#DBFB1E] py-3 px-6 rounded-[50px]'><span className='pr-3'>Get a Quote</span> <FaArrowRightLong  /></button>
                     </div>
                     </div>
                 </div>
