@@ -15,7 +15,7 @@ const Navbar = () => {
                             </div>
                             <div className="">
                                 <ul className='flex items-center gap-x-6 pl-13 text-white font-main text-[16px] font-normal'>
-                                    <li className='py-1 px-4 border-2 border-white'>Projects</li>
+                                    <li className='py-1 px-4 border-2 border-white rounded-[30px]'>Projects</li>
                                     <li>Sercive</li>
                                     <li>Contact</li>
                                     <li>Testimonials</li>
