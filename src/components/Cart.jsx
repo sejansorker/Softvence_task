@@ -1,16 +1,25 @@
-import React from 'react'
-import Container from './Container'
 
+// import React from 'react'
+import Container from './Container'
+import Im from "../assets/image.png"
 const Cart = () => {
   return (
     <div className='pt-30'>
         <Container>
             <div className="">
-                <h2 className='pb-16 text-[48px] text-black font-main font-medium text-center'>Exclusive properties by HomeQuest</h2>
+                <h2 className='pb-16 text-[48px] text-black font-main font-normal text-center'>Exclusive properties by HomeQuest</h2>
+            </div>
+            <div className="">
+              <div className="w-[32%]">
+                <div className="">
+                  <img className='pb-6' src={Im} alt="" />
+                  <p className='pb-2 text-[16px] text-[#203F30] font-main font-normal'>$1,405,000</p>
+                  <h4 className='pb-6 text-[24px] text-[#0A0915] font-main font-medium'>Modern 3-Bedroom Apartment in Gulshan, Dhaka</h4>
+                </div>
+              </div>
             </div>
         </Container>
     </div>
   )
 }
-
 export default Cart
