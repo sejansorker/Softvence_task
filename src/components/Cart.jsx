@@ -55,6 +55,14 @@ const Cart = () => {
                   <img src={Mini3} alt="" />
                 </div>
               </div>
+              <div className="w-[32%]">
+                <div className="">
+                  <img className='pb-6' src={Im4} alt="" />
+                  <p className='pb-2 text-[16px] text-[#203F30] font-main font-normal'>$12,000/mo</p>
+                  <h4 className='pb-6 text-[24px] text-[#0A0915] font-main font-medium'>Modern 3-Bedroom Apartment in Gulshan, Dhaka</h4>
+                  <img src={Mini4} alt="" />
+                </div>
+              </div>
             </div>
         </Container>
     </div>
