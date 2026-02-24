@@ -72,6 +72,9 @@ const Cart = () => {
                 </div>
               </div>
             </div>
+            <div className="flex justify-center pb-30">
+              <button className='text-[16px] bg-[#203F30] font-main font-medium text-white py-3 px-6 rounded-lg '>Explore All Listings</button>
+            </div>
         </Container>
     </div>
   )
