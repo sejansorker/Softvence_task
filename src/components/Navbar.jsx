@@ -15,19 +15,19 @@ const Navbar = () => {
                             </div>
                             <div className="">
                                 <ul className='flex items-center gap-x-6 pl-13 text-white font-main text-[16px] font-normal'>
-                                    <li className='py-1 px-4 border-2 border-white rounded-[30px]'>Projects</li>
-                                    <li>Sercive</li>
-                                    <li>Contact</li>
-                                    <li>Testimonials</li>
+                                    <li className='py-1 px-4 border-2 border-white rounded-[30px] cursor-pointer'>Projects</li>
+                                    <li className='cursor-pointer'>Sercive</li>
+                                    <li className='cursor-pointer'>Contact</li>
+                                    <li className='cursor-pointer'>Testimonials</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className="w-2/4 ">
                     <div className="flex items-center justify-end">
-                        <p className='text-[16px] font-normal font-main text-white pr-8'>+21 934 748 392</p>
-                        <button className='p-3.5 rounded-full mr-2  bg-[rgba(255,255,255,0.37)]'><IoIosSearch className='text-[20px] text-white ' /></button>
-                        <button className='flex items-center font-main text-[16px] font-medium bg-[#DBFB1E] py-3 px-6 rounded-[50px]'><span className='pr-3'>Get a Quote</span> <FaArrowRightLong  /></button>
+                        <p className='text-[16px] font-normal font-main text-white pr-8 cursor-pointer'>+21 934 748 392</p>
+                        <button className='p-3.5 rounded-full mr-2  bg-[rgba(255,255,255,0.37)]'><IoIosSearch className='text-[20px] text-white   cursor-pointer' /></button>
+                        <button className='flex items-center font-main text-[16px] font-medium bg-[#DBFB1E] py-3 px-6 rounded-[50px]  cursor-pointer'><span className='pr-3'>Get a Quote</span> <FaArrowRightLong  /></button>
                     </div>
                     </div>
                 </div>
