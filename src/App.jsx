@@ -3,6 +3,7 @@ import Cart from "./components/Cart"
 import Ceo from "./components/Ceo"
 import Navbar from "./components/Navbar"
 import Sponser from "./components/Sponser"
+import State from "./components/State"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Sponser/>
       <Cart/>
       <Ceo/>
+      <State/>
     </>
   )
 }
