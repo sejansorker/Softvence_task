@@ -24,11 +24,11 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="w-2/4 ">
-                    <div className="flex items-center justify-end">
-                        <p className='text-[16px] font-normal font-main text-white pr-8 cursor-pointer'>+21 934 748 392</p>
-                        <button className='p-3.5 rounded-full mr-2  bg-[rgba(255,255,255,0.37)]'><IoIosSearch className='text-[20px] text-white   cursor-pointer' /></button>
-                        <button className='flex items-center font-main text-[16px] font-medium bg-[#DBFB1E] py-3 px-6 rounded-[50px]  cursor-pointer'><span className='pr-3'>Get a Quote</span> <FaArrowRightLong  /></button>
-                    </div>
+                        <div className="flex items-center justify-end">
+                            <p className='text-[16px] font-normal font-main text-white pr-8 cursor-pointer'>+21 934 748 392</p>
+                            <button className='p-3.5 rounded-full mr-2  bg-[rgba(255,255,255,0.37)]'><IoIosSearch className='text-[20px] text-white   cursor-pointer' /></button>
+                            <button className='flex items-center font-main text-[16px] font-medium bg-[#DBFB1E] py-3 px-6 rounded-[50px]  cursor-pointer'><span className='pr-3'>Get a Quote</span> <FaArrowRightLong /></button>
+                        </div>
                     </div>
                 </div>
             </Container>
@@ -37,3 +37,10 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+
+
